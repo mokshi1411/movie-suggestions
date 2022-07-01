@@ -95,6 +95,15 @@ function App() {
       <Genre genreListArray={genreList} buttonclickhandler={setGenredata} />
       {/* <SuggestionItems movie={movieData.Horror[2]}/> */}
       <Suggestion genreData={movieData[currentGenre]} genre={currentGenre} />
+      <footer className='footer'>
+        <div className='footer-content'>
+          <a
+            className='link footer-link'
+            href='https://pushpjain.netlify.app/projects.html'>
+            <h2>More of such interesting projects.</h2>
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

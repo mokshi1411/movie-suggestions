@@ -83,6 +83,14 @@ hr {
 	background-image: url("./resources/images/TheNunButton.png");
 	background-size: cover;
 }
+.genre-button:hover:nth-of-type(2) {
+	background-image: url("./resources/images/ashiqi.jpg");
+	background-size: cover;
+}
+.genre-button:hover:nth-of-type(3) {
+	background-image: url("./resources/images/tada.jfif");
+	background-size: cover;
+}
 .genre-button h2 {
 	margin: auto;
 }
